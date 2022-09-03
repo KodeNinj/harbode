@@ -39,7 +39,7 @@ const FilterRibbon = () => {
         </div>
         <button className='web'>Search</button>
     </section>
-    <button className='mobile'>Search</button>
+   
     </section>
   )
 }
