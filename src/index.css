@@ -7,6 +7,7 @@
 body{
     overflow-x: hidden;
     font-family: 'open sans';
+    user-select: none;
 }
 :root{
     --button-green: #008148;
