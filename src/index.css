@@ -745,8 +745,8 @@ nav .links ul li:hover{
     }
 }
 .NHbanner{
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -789,6 +789,10 @@ nav .links ul li:hover{
     margin-top: 30px;
     transition: all 1s ease;
     cursor: pointer;
+}
+.NHbanner .right button:hover{
+    background-color: var(--blacks);
+    transition: all 1s ease;
 }
 @media only screen and (max-width: 1200px){
     .NHbanner{
