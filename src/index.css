@@ -744,6 +744,12 @@ nav .links ul li:hover{
         margin-left: 10%;
     }
 }
+/* need help banner */
+/* need help banner */
+/* need help banner */
+/* need help banner */
+/* need help banner */
+/* need help banner */
 .NHbanner{
     width: 80%;
     margin-left: 10%;
@@ -752,8 +758,9 @@ nav .links ul li:hover{
     align-items: flex-end;
     background-color: var(--greys);
     height: 270px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 10%;
+    border-radius: 10px;
 }
 .NHbanner img{
     width:250px;
@@ -919,4 +926,128 @@ nav .links ul li:hover{
         width: 100%;
     }
     
+}
+
+/* ON THE GO  */
+/* ON THE GO  */
+/* ON THE GO  */
+/* ON THE GO  */
+.onthego{
+    padding: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.onthego .left{
+    margin-top: 10%;
+    width: 50%;
+}
+.onthego .right{
+    padding: 20px 40px;
+    width: 50%;
+}
+.onthego .right img{
+    width: 80%;
+    margin-top: 12%;
+    margin-left: 15%;
+}
+.onthego .left h4{
+    font-size: 24px;
+}
+.onthego .left p{
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 5%;
+}
+.onthego .left h5{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+}
+.onthego .bottom{
+    width: 50%;
+    margin-top: 30px;
+}
+.onthego .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.onthego .buttons .ios, .onthego .buttons .android{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    margin-right: 5%;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.onthego .buttons .ios:hover, .onthego .buttons .android:hover{
+    background-color: var(--blacks);
+    transition: all 1s ease;
+}
+.onthego .buttons i{
+    font-size: 40px;
+}
+.onthego .buttons h6{
+    font-size: 12px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1000px){
+    .onthego .buttons{
+        flex-direction: column;
+    }
+    .onthego .buttons .android{
+        margin-bottom: 40px;
+    }
+    .onthego .right img{
+        width: 450px;
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .onthego{
+        flex-direction: column;
+    }
+    .onthego .left{
+        width: 100%;
+        text-align: center;
+    }
+    .onthego .buttons{
+        flex-direction: row;
+    }
+    .onthego .buttons .android{
+        margin-bottom: 0px;
+    }
+    .onthego .bottom{
+        width: 50%;
+        margin: 30px 25%;
+    }
+    .onthego .right img{
+        width: 50vw;
+        margin-left: 15vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .onthego .bottom{
+        width: 100%;
+        margin: 30px 0%;
+    }
+    .onthego .buttons{
+        justify-content: space-around;
+    }
+    .onthego .buttons .ios, .onthego .buttons .android{
+        width: 150px;
+        height: 150px;
+    }
 }
