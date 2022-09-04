@@ -1102,4 +1102,11 @@ footer .scrollup p {
         margin-left: 0;
         margin-top: 0;
     }
+    footer .scrollup p{
+        width: 40px;
+        height: 40px;
+    }
+    footer .scrollup i{
+        font-size: 28px;
+    }
 }
