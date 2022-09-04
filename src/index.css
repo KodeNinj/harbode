@@ -879,7 +879,14 @@ nav .links ul li:hover{
 }
 @media only screen and (max-width: 450px){
     .NHbanner img{
-        width:200px;
+        width: 200px;
+        margin-left: -30px;
+    }
+    .NHbanner .left{
+        width: 30%;
+    }
+    .NHbanner .right{
+        width: 70%;
     }
     .NHbanner p{
         line-height: 20px;
