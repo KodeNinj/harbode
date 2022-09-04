@@ -25,10 +25,10 @@ const Property = () => {
                         </div>
                     </div>
                     <div className="bottom">
-                        <p><i className="fa fa-bed" aria-hidden="true"></i> {e.amenity.bedroom} Bedrooms</p>
-                        <p><i className="fa fa-shower" aria-hidden="true"></i> {e.amenity.bathroom} Bathrooms</p>
-                        <p><i className="fa fa-toilet"></i> {e.amenity.Toilets} Toilets</p>
-                        <p><i className="fa-solid fa-car"></i> {e.amenity.ParkingSpace} car park</p>
+                        <p><i className="fa fa-bed" aria-hidden="true"></i> {e.amenity.bedroom} <span> Bedrooms</span></p>
+                        <p><i className="fa fa-shower" aria-hidden="true"></i> {e.amenity.bathroom} <span>Bathrooms</span></p>
+                        <p><i className="fa fa-toilet"></i> {e.amenity.Toilets} <span>Toilets</span></p>
+                        <p><i className="fa-solid fa-car"></i> {e.amenity.ParkingSpace} <span>car park</span></p>
                     </div>
                 </div>
                 )

@@ -632,6 +632,7 @@ nav .links ul li:hover{
 @media only screen and (max-width: 700px){
     .main-box{
         width: 350px;
+        margin-right: 0;
     }
     .main-box .left{
         width: 150px;
@@ -646,4 +647,69 @@ nav .links ul li:hover{
         text-align: center;
         margin-left: 0;
     }
+}
+@media only screen and (max-width: 400px){
+    .main-box{
+        width: 300px;
+
+    }
+    .main-box .left{
+        width: 120px;
+    }
+    .main-box .top .right{
+        width: 180px;
+    }
+    .main-box .left img{
+        width: 120px;
+    }
+   
+}
+@media only screen and (max-width: 340px){
+    .main-box{
+        margin-right: 0;
+        justify-content: space-between;
+        height: 400px;
+    }
+    .main-box .top{
+        width: 200px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        height: 300px;
+    }
+    .main-box .left{
+        width: 300px;
+        height: 150px;
+    }
+    .main-box .top .right{
+        width: 300px;
+        height: 100px;
+    }
+  
+    .main-box .top .right .up h5{
+        font-size: 10px;
+    }
+    .main-box .top .right .up p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+   
+    .main-box .left img{
+        width: 300px;
+    }
+    .main-box .top .right .down{
+        /* padding: 40px ; */
+        min-height: 300px;
+    }
+    .main-box .bottom p{
+        padding: 5px ;
+    }
+    .main-box .bottom p, .main-box .bottom i{
+        font-size: 16px;
+
+    }
+    .main-box .bottom span{
+        display: none;
+    }
+   
 }
