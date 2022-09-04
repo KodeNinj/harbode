@@ -34,7 +34,7 @@ const Property = () => {
                 )
             })}
             </div>
-            
+                <button className="findMore">Find More</button>
         </section>
     )
    
