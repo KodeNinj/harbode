@@ -933,7 +933,7 @@ nav .links ul li:hover{
 /* ON THE GO  */
 /* ON THE GO  */
 .onthego{
-    padding: 60px;
+    padding: 60px 7% 50px 7%;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -945,7 +945,7 @@ nav .links ul li:hover{
     width: 50%;
 }
 .onthego .right{
-    padding: 20px 40px;
+    padding: 20px 40px 0 40px;
     width: 50%;
 }
 .onthego .right img{
@@ -1018,7 +1018,8 @@ nav .links ul li:hover{
 @media only screen and (max-width: 800px){
     .onthego{
         flex-direction: column;
-    }
+        padding: 60px 7% 0px 7%;
+    }       
     .onthego .left{
         width: 100%;
         text-align: center;
@@ -1049,5 +1050,56 @@ nav .links ul li:hover{
     .onthego .buttons .ios, .onthego .buttons .android{
         width: 150px;
         height: 150px;
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 50px;
+}
+footer .contacts{
+    display: flex;
+    flex-direction: column;
+
+}
+footer .contacts .mail, footer .contacts .ava{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+footer .contacts i{
+    margin-right: 20px;
+    color: var(--primary-orange);
+}
+footer .scrollup i{
+    color: var(--dark-blue);
+    font-weight: 800;
+    font-size: 32px;
+}
+
+footer .scrollup p {
+    width: 60px;
+    height: 60px;
+    background-color: var(--white);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;
+    box-shadow: 0 0 3px var(--dark-blue);
+}
+@media only screen and (max-width: 650px){
+    footer{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 400px;
+    }
+    footer .scrollup p{
+        margin-left: 0;
+        margin-top: 0;
     }
 }

@@ -4,7 +4,7 @@ const OnTheGo = () => {
   return (
     <section className="onthego">
         <div className="left">
-            <h4>Harbode On The GO</h4>
+            <h4>Harbode On The GO!</h4>
             <p>Download the Harbode mobile app and enjoy a seamless experience while looking for that dream house. Download the app and stand a chance to win a lot of mouth-watering prizes</p>
             <div className="bottom">
                 <h5>Get Started Now</h5>
