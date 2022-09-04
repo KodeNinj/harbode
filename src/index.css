@@ -861,6 +861,7 @@ nav .links ul li:hover{
     }
     .NHbanner img{
         width:220px;
+        margin-left: -5px;
     }
     
     .NHbanner h4{
@@ -868,7 +869,7 @@ nav .links ul li:hover{
     }
     .NHbanner p{
         font-size: 10px;
-        margin: 2px 0;
+        margin: 4px 0;
     }
     .NHbanner .right{
         width: 50%;
