@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
         <div className="scrollup">
-            <p><i class="fa fa-angle-double-up" aria-hidden="true"></i></p>
+            <a href='#mainhero'><p><i class="fa fa-angle-double-up" aria-hidden="true"></i></p></a>
         </div>
         <div className="rightReserve">
             <p>All right Reserved. Harbode 2022</p>

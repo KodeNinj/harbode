@@ -4,7 +4,7 @@ import Hero from './Hero'
 
 const MainHero = () => {
   return (
-    <section className='hero'>
+    <section className='hero'id='mainhero'>
         <Navbar/>
         <Hero/>
     </section>

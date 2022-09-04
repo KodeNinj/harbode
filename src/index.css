@@ -1092,6 +1092,9 @@ footer .scrollup p {
     margin-top: -120px;
     box-shadow: 0 0 3px var(--dark-blue);
 }
+footer .scrollup a{
+    text-decoration: none;
+}
 @media only screen and (max-width: 650px){
     footer{
         flex-direction: column;
