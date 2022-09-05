@@ -1,0 +1,79 @@
+:root{
+    --button-green: #008148;
+    --primary-orange: #f77f00;
+    --blacks: #333;
+    --greys: #f1f1f1;
+    --dark-blue: #0e131f;
+    --user-link: #555555;
+    --white: #fff;
+}
+
+.explorefilter{
+    padding: 20px 7%;
+    margin-top: 10%; 
+    width: 100%;
+    /* background-color: red;    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.explorefilter .ups{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.explorefilter .ups select{
+    padding: 15px 50px;
+    box-shadow: 0 0 2px var(--blacks);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+.explorefilter .down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5%;
+    /* background-color: blue; */
+}
+.explorefilter .down form{
+    width: 100%;
+}
+.explorefilter .down input{
+    width: 65%;
+    padding: 16px 25px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px 0 0 5px;
+}
+.explorefilter .down input::placeholder{
+    color: #c4c4c4;
+}
+.explorefilter .down button{
+    width: 35%;
+    padding: 18px 25px;
+    background-color: var(--button-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 1px var(--dark-blue), inset 1px 1px 5px var(--blacks) ;
+    transition: 1s all ease;
+    cursor: pointer;
+
+}
+.explorefilter .down button:hover{
+    transition: 1s all ease;
+    background-color: var(--blacks);
+}
+.margin{
+    margin-top: 5%;
+}
+/* .explorefilter .margin .main-box .top .right{
+    flex-direction: column;
+} */

@@ -38,6 +38,7 @@ nav .links{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
     /* background-color: green; */
 }
 
@@ -49,11 +50,18 @@ nav .links ul{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     z-index: 100;
+    
     /* background-color: red; */
+}
+nav a{
+    text-decoration: none;
+    color: var(--dark-blue);
 }
 nav .links ul li{
     margin-left: 30px;
     padding: 15px 20px;
+    
+    color: var(--dark-blue);
     /* background-color: khaki; */
     cursor: pointer;
     transition: all 1s ease;
@@ -573,7 +581,7 @@ nav .links ul li:hover{
 }
 .main-box .top .right{
     width: 300px;
-    padding: 20px 10px;
+    padding: 20px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
