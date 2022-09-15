@@ -1,17 +1,17 @@
 import React from 'react'
-import HeroImageMobile from '../../img/heroImgMobile.png'
-import HeroImageWeb from '../../img/heroImgWeb.png'
-const Hero = () => {
+import { Link } from 'react-router-dom';
+
+const Hero = ({h2, p, img, imgMob}) => {
   return (
     <div className="hero-content">
         <div className="left">
-            <h2>House Hunting Made Easy</h2>
-            <p>Explore various properties that suites your needs and budget. Rent or buy? We gat your back</p>
-            <button>Explore</button>
+            <h2>{h2}</h2>
+            <p>{p}</p>
+            <Link to='./explore'><button>Explore</button></Link>
         </div>
         <div className="right">
-            <img src={HeroImageWeb} alt="" className='web' />
-            <img src={HeroImageMobile} alt="" className='mobile' />
+            <img src={img} alt="" className='web' />
+            <img src={imgMob} alt="" className='mobile' />
         </div>
     </div>
   )

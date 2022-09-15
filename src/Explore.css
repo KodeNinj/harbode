@@ -7,73 +7,149 @@
     --user-link: #555555;
     --white: #fff;
 }
+.hero-content .exploreleft{
+    margin-top: -5%;
+}
+.hero-content-explore{
+    height: 93vh;
+    overflow: hidden;
+}
+.hero-content .exploreimg img{
+    top: 70px;
+    right: 0;
+    width: 55%;
+    height: 100%;
+}
+.hero{
+    background-image: url('./img/bgweb.png');
+    background-position: -20px 50px;
+    background-size: cover;
+    /* background-origin: content-box; */
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+}
+@media only screen and (max-width: 1040px) and (orientation: portrait){
+    .hero{
+        height: 100vh;
+        overflow: hidden;
+        background-position: -400px 50px;
 
-.explorefilter{
-    padding: 20px 7%;
-    margin-top: 10%; 
-    width: 100%;
-    /* background-color: red;    */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    }
+}
+@media only screen and (max-width: 1040px) and (orientation: landscape){
+    .hero{
+        height: auto;
+        overflow: hidden;
+        background-position: -400px 50px;
 
+    }
 }
-.explorefilter .ups{
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-}
-.explorefilter .ups select{
-    padding: 15px 50px;
-    box-shadow: 0 0 2px var(--blacks);
-    border: none;
-    border-radius: 5px;
-    outline: none;
+@media only screen and (max-width: 1040px) {
+    .hero-content-explore{
+        flex-direction: column;
+        min-height: 150vh;
+    }
+    .hero-content-explore .left{
+        margin-top: 10%;
+        margin-left: 7%;
+        width: 100%;
+    }
+    .hero-content-explore .right{
+        width: 100%;
+    }
+    .hero-content-explore{
+        height: auto;
+    }
 
+    .hero-content .exploreimg img{
+        margin-top: 20%;
+        margin-left: 5%;
+        width: 100%;
+        height: auto;
+        right: 0;
+        /* object-fit: fill; */
+    }
 }
-.explorefilter .down{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin-bottom: 5%;
-    /* background-color: blue; */
+@media only screen and (max-width: 930px){
+    .hero-content .exploreimg img{
+        margin-top: 50%;
+        margin-left: -25%;
+    }
 }
-.explorefilter .down form{
-    width: 100%;
+@media only screen and (max-width: 850px){
+    .hero-content .exploreimg img{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
 }
-.explorefilter .down input{
-    width: 65%;
-    padding: 16px 25px;
-    outline: none;
-    border: 2px solid #c4c4c4;
-    border-radius: 5px 0 0 5px;
+@media only screen and (max-width: 790px){
+    .hero-content .exploreimg img{
+        margin-top: 25%;
+        margin-left: 10%;
+    }
 }
-.explorefilter .down input::placeholder{
-    color: #c4c4c4;
+@media only screen and (max-width: 770px){
+    .hero-content .exploreimg img{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
 }
-.explorefilter .down button{
-    width: 35%;
-    padding: 18px 25px;
-    background-color: var(--button-green);
-    color: var(--white);
-    border: none;
-    border-radius: 0 5px 5px 0;
-    box-shadow: 0 0 1px var(--dark-blue), inset 1px 1px 5px var(--blacks) ;
-    transition: 1s all ease;
-    cursor: pointer;
-
+@media only screen and (max-width: 670px){
+    .hero-content .exploreimg img{
+        margin-top: 60%;
+        margin-left: 10%;
+    }
 }
-.explorefilter .down button:hover{
-    transition: 1s all ease;
-    background-color: var(--blacks);
+@media only screen and (max-width: 625px){
+    .hero-content-explore .left{
+        margin-top: 15%;
+    }
+    .hero-content-explore .left h2{
+        width: 90%;
+    }
+    .hero-content .exploreimg img{
+        margin-top: 80%;
+        margin-left: 10%;
+    }
 }
-.margin{
-    margin-top: 5%;
+@media only screen and (max-width: 550px){
+    .hero-content .exploreimg img{
+        margin-top: 80%;
+    }
 }
-/* .explorefilter .margin .main-box .top .right{
-    flex-direction: column;
-} */
+@media only screen and (max-width: 512px){
+    .hero-content .exploreimg img{
+        width: 150%;
+        margin-top: 85%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 490px){
+    .hero-content .exploreimg img{
+        margin-top: 55%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 430px){
+    .hero-content .exploreimg img{
+        margin-top: 60%;
+    }
+}
+@media only screen and (max-width: 370px){
+    .hero-content .exploreimg img{
+        margin-top: 70%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .hero-content .exploreimg img{
+        margin-top: 100%;
+    }
+}
+@media only screen and (max-width: 300px){
+    .hero-content .exploreimg img{
+        margin-top: 80%;
+    }
+}
