@@ -17,7 +17,7 @@ const Home = () => {
         <Property/>
         <NeedHelp/>
         <OnTheGo/>
-        <Footer/>
+        <Footer props='/'/>
     </div>
   )
 }

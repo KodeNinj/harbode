@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer>
         <div className="scrollup">
-            <Link to='/'><p><i className="fa fa-angle-double-up" aria-hidden="true"></i></p></Link>
+            <Link to={props}><p><i className="fa fa-angle-double-up" aria-hidden="true"></i></p></Link>
         </div>
         <div className="rightReserve">
             <p>All right Reserved. Harbode 2022</p>
