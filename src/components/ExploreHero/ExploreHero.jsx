@@ -11,7 +11,7 @@ const ExploreHero = () => {
         <div className="left exploreleft">
             <h2>Office Spaces Now Available</h2>
             <p>A new addition to the Harbode website. You can now rent office spaces on the website.</p>
-            <Link to='./explore'><button>Explore</button></Link>
+            <Link to='#'><button>Explore</button></Link>
         </div>
         <div className="right exploreimg">
             <img src={HeroImg} alt="" className='web' />
