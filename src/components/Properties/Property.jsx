@@ -1,5 +1,6 @@
 import React from 'react'
 import {properties} from './propertiesobj'
+import { Link } from 'react-router-dom'
 const Property = () => {
     return(
         <section className='property'>
@@ -34,7 +35,7 @@ const Property = () => {
                 )
             })}
             </div>
-                <button className="findMore">Find More</button>
+                <Link to='/explore'> <button className="findMore">Find More</button></Link>
         </section>
     )
    
