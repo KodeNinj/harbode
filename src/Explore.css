@@ -150,7 +150,7 @@
 }
 @media only screen and (max-width: 300px){
     .hero-content .exploreimg img{
-        margin-top: 80%;
+        margin-top: 100%;
     }
 }
 .filters select{
@@ -158,7 +158,6 @@
     width: calc(100%/4 - 5px);
     border: 1px solid #c4c4c4;
     outline: none;
-    
 }
 .filters option:checked{
     background-color: var(--button-green);
@@ -208,6 +207,10 @@
 }
 .smallbtn{
     display: none;
+   
+}
+#filter{
+    margin-top: 10px;
 }
 @media only screen and (max-width: 800px){
     .filters select{
@@ -225,6 +228,9 @@
     }
    .smallbtn{
     display: block;
+}
+.hero-content-explore .exploreleft p{
+    width: 90%;
 }
 .filters form .bottom  .filter{
     border-radius: 0;
@@ -273,4 +279,10 @@
     background-color: var(--button-green);
     color: var(--white);
     border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.butto button:hover{
+    background-color: var(--blacks);
+    transition: all 1s ease;
 }
