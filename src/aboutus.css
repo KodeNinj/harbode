@@ -304,10 +304,10 @@
     /* text-align: center; */
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 0;
+    text-decoration: none;
 }
-.AboutUss a{
+.AboutUss p {
     
     color: var(--white);
-    text-decoration: none;
 }
