@@ -55,7 +55,7 @@ function toggleFunction(){
             </div>
             <div className="bottom">
             <input type="text" name="search" id="search" placeholder='Search for property/Advert ID' />
-            <button className='smallbtn filter' onClick={(e)=>{
+            <button className='smallbtn filter'id='filter'  onClick={(e)=>{
                  e.preventDefault()
                 toggleFunction();
             }}><i className="fa fa-filter"  aria-hidden="true"></i></button>

@@ -346,7 +346,7 @@ export const Exploreproperties = [
         id: 'prop-20',
         name: '4 bed Hostel for Rent',
         desc: 'Four bed hostel available for rent at a good location with good road for rent at Osun',
-        imgUrl: 'https://www.trinityuniversity.edu.ng/wp-content/uploads/2021/08/Female-Hostel-1024x685.jpg',
+        imgUrl: 'http://images.jdmagicbox.com/comp/thanjavur/f5/9999p4362.4362.171210121517.i9f5/catalogue/vijayam-ladies-hostel-rajah-serfoji-government-college-thanjavur-hostels-for-women-8zpws.jpg',
         price: '150,000',
         amenity: {
             bedroom: 1,

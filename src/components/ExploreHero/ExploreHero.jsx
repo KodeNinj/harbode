@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navigation/Navbar'
 import HeroImg from '../../img/explore.png'
-import HeroImgMob from '../../img/exploremob.png'
+import HeroImgMob from '../../img/exploremob.png';
 import { Link } from 'react-router-dom';
 const ExploreHero = () => {
   return (
