@@ -493,7 +493,13 @@
     }
 }
 
-@media only screen and (max-width: 416px){
+@media only screen and (max-width: 430px){
+    .testimonials .box{
+        width: 360px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 420px){
     .testimonials span{
         right: 0px;
     }

@@ -209,9 +209,9 @@
     display: none;
    
 }
-#filter{
+/* #filter{
     margin-top: 10px;
-}
+} */
 @media only screen and (max-width: 800px){
     .filters select{
         width: calc(100%/2 - 5px);
