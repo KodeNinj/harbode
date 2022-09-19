@@ -316,7 +316,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    box-shadow: 0 1px 5px #c4c4c4;
+    box-shadow: 0 1px 4px #c4c4c4;
     padding: 0 0 30px 0;
 }
 .missionVision img{
@@ -345,7 +345,7 @@
     height: 120px;
     margin-left: 1%;
     background-color: var(--block);
-    box-shadow: inset 0px 0px 5px var(--dark-blue), 0px 0px 1px var(--dark-blue);
+    box-shadow: inset 0px 0px 4px var(--dark-blue), 0px 0px 1px var(--dark-blue);
 }
 .changeflex{
     flex-direction: row-reverse;
@@ -414,6 +414,7 @@
 /* testimonials */
 .testimonials{
     padding: 40px 0;
+    box-shadow: 0 1px 4px #c4c4c4;
 }
 .testimonials .header h2{
     font-size: 34px;
