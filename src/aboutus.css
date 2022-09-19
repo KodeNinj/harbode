@@ -6,6 +6,7 @@
     --dark-blue: #0e131f;
     --user-link: #555555;
     --white: #fff;
+    --block: #4A7160;
 }
 
 .abouthero #aboutimg img{
@@ -310,4 +311,101 @@
 .AboutUss p {
     
     color: var(--white);
+}
+.missionVision{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 0 1px 5px #c4c4c4;
+    padding: 0 0 30px 0;
+}
+.missionVision img{
+    width: 50%;
+    margin-top: 3%;
+}
+.missionVision .left{
+    margin-left: 7%;
+    
+}
+.missionVision .left p{
+    font-size: 18px;
+    line-height: 40px;
+    width: 80%;
+}
+.missionVision .left h2{
+    font-size: 35px;
+    color: var(--button-green);
+}
+.missionVision .right{
+    margin-top: 5%;
+}
+
+.blockbox{
+    width: 200px;
+    height: 120px;
+    margin-left: 1%;
+    background-color: var(--block);
+    box-shadow: inset 0px 0px 5px var(--dark-blue), 0px 0px 1px var(--dark-blue);
+}
+.changeflex{
+    flex-direction: row-reverse;
+}
+.changeflex img{
+    width: 50%;
+    margin-top: -40px;
+}
+.changeflex .blockbox{
+    height: 150px;
+    width: 150px;
+}
+.changeflex .left{
+    flex: 1;
+    /* margin-top: -12%; */
+    margin-left: -7%;
+}
+.changeflex .right{
+    flex: 1;
+}
+.changeflex h2, .missionVision h2{
+    margin: 10px 0;
+}
+@media only screen and (max-width: 980px){
+    .missionVision{
+        flex-direction: column;
+    }  
+    .missionVision img{
+        width: 40%;
+        margin-left: 30%;
+    } 
+    .changeflex .left{
+        flex: 1;
+        /* margin-top: -12%; */
+        margin-left: 7%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .blockbox{
+        width: 40%;
+        margin-left: 30%;
+        height: 50px;
+    }
+    .missionVision .left p{
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+   }
+   .missionVision .left h2{
+    text-align: center;
+    font-size: 24px;
+   }
+   .changeflex img{
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+   }
+    .changeflex .blockbox{
+        height: 50px;
+        width: 40%;
+        margin-left: calc((100% - 40%)/2);
+    }
 }
