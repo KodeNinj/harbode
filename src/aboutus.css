@@ -510,7 +510,7 @@
 @media only screen and (max-width: 490px){
     .testimonials .box{
         width: 360px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
     .testimonials .header p{
         width: 80%;
