@@ -4,6 +4,8 @@ import ScrollToTop from './components/ScrollToTop/scroll'
 import Explore from './pages/Explore'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
+import Contact from './pages/Contact'
+import Login from './pages/Login'
 const App = () => {
   
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <Route path="/" element={<Home/> }/>
         <Route path="/explore" element={<Explore/> }/>
         <Route path="/about-us" element={<AboutUs/> }/>
+        <Route path="/contact-us" element={<Contact/> }/>
+        <Route path="/login" element={<Login/> }/>
         </Routes>
         </ScrollToTop>
     </BrowserRouter>

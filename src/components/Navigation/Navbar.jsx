@@ -13,13 +13,15 @@ const Navbar = () => {
                     <Link to='/'><li>Home</li></Link>
                     <Link to='/explore'><li>Explore</li></Link>
                     <Link to='/about-us'><li>About Us</li></Link>
-                    <li>Contact Us</li>
+                    <Link to='/contact-us'><li>Contact Us</li></Link>
                 </ul>
             
             </div>
+            <Link to='/login'>
             <div className="user-home-btn">
-                <i className="fa fa-user-circle" aria-hidden="true"></i>
+           <i className="fa fa-user-circle" aria-hidden="true"></i>
             </div>
+            </Link>
     
         </div>
         <div className="hamburger">

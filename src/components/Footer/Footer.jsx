@@ -14,10 +14,10 @@ const Footer = (props) => {
          
             <Link to='/explore' className='AboutUss'> <i className="fa fa-book" aria-hidden="true"></i><p>Explore</p></Link>
             <Link to='/about-us' className='AboutUss'> <i className="fa fa-book" aria-hidden="true"></i><p>About Us</p></Link>
-            
-            <div className="mail"><i className="fa-solid fa-envelope"></i><p>info@harbode.com</p></div>
-            <div className="ava"><i className="fa-brands fa-rocketchat"></i><p>Chat Ava Online</p></div>
-        </div>
+            <Link to='/contact-us' className='AboutUss'> <i className="fa fa-book" aria-hidden="true"></i><p>Contact Us</p></Link>
+            <p style={{marginBottom: '20px'}}><i className="fa-solid fa-envelope"></i> info@harbode.com</p>
+            <p><i className="fa-brands fa-rocketchat"></i> Chat Ava Online</p>
+            </div>
     </footer>
   )
 }

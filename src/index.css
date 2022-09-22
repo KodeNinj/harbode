@@ -80,6 +80,7 @@ nav .links ul li:hover{
     justify-content: center;
     align-items: center;
     border-radius: 0 0 50px 50px;
+    transition: 1s all ease;
 }
 .user-home-btn i{
     margin-top: 80px;
@@ -1123,4 +1124,8 @@ footer .scrollup a{
     footer .scrollup i{
         font-size: 28px;
     }
+}
+.user-home-btn:hover{
+    background-color: var(--primary-orange);
+    transition: 1s all ease;
 }
