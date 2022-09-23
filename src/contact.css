@@ -222,7 +222,9 @@ textarea{
     width: 80%;
     resize: none;
     font-size: 18px;
+    border-radius: 5px;
     padding: 15px;
+    border: 1px solid var(--blacks);
     outline-color: var(--primary-orange);
 }
 .contactform .left .p{
@@ -253,11 +255,20 @@ textarea{
     transition: all 1s ease;
     font-size: larger;
 }
-.contactform #submit{
+.contactform button{
+    padding: 20px 25px;
+    width: 80%;
+    border-radius: 10px;
     background-color: var(--button-green);
     color: var(--white);
     border: none;   
     box-shadow: inset 1px 1px 3px var(--blacks);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.contactform button:hover{
+    background-color: var(--blacks);
+    transition: all 1s ease;
 }
 @media only screen and (max-width: 900px){
     .contactform .right img{
@@ -285,4 +296,119 @@ textarea{
         width: 95%;
     }
 
+}
+/* Location */
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.location .left{
+    width: 40%;
+    padding-left: 7%;
+}
+.locations h3{
+    font-size: 28px;
+    color: var(--button-green);
+    padding: 20px 0;
+    margin-left: 7%;
+}
+.location .right{
+    width: 60%;
+}
+.location .right p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.location .right p i{
+    margin-right: 20px;
+}
+.location .right p span{
+    margin-left: 10px;
+}
+.location .left img{
+    width: 80%;
+}
+.hide{
+    display: none;
+    transition: all 2s ease;
+}
+.show{
+    display: block;
+    transition: all 2s ease;
+}
+#success-msg i{
+    font-size: 24px;
+}
+#success-msg{
+    margin-top: 30px;
+    background-color: var(--button-green);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 840px){
+    .location{
+        flex-direction: column;
+    }
+    .contactform button{
+        width: 95%;
+    }
+    .location .left, .location .right{
+        padding-left:0%;
+        width: 90%;
+    }
+    .location .right{
+        margin-top: 30px;
+    }
+    .location .left img{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .location .right p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 490px){
+    .location .right p{
+        font-size: 14px;
+    }
+    #success-msg{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 430px){
+    .location .right p span{
+        margin-left: 5px;
+    }
+    .location .right p i{
+        margin-right: 10px;
+    }
+    .location .left img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .location .right p{
+        flex-direction: column;
+    }
+    .location .right p i{
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: var(--button-green);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--white);
+    }
 }

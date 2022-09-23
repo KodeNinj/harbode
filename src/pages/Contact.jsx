@@ -14,7 +14,7 @@ const Contact = () => {
         <ContactHero/>
         <ContactEnjoy/>
         <Contactform/>
-        {/* <OurLocation/> */}
+        <OurLocation/>
         <OnTheGo/>
         <Footer/>
     </section>

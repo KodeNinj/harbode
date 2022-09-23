@@ -4,7 +4,7 @@ import App from './App';
 import './index.css';
 import './Explore.css';
 import './aboutus.css';
-import './contact.css';
+import './contact.css'; 
 
 const container = document.getElementById('root');
 const root = createRoot(container);
