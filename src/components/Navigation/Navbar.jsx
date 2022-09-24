@@ -1,9 +1,32 @@
-import React from 'react'
+import {useState, React} from 'react'
 import { Link } from 'react-router-dom';
 import Logo from '../../img/logo.png';
-const Navbar = () => {
+import '../../Sidebar.css'
+const Navbar = (props) => {
+    const [display, setdisplay] = useState('sidebarhide')
   return (
+    <section>
+        <section id='flexme' className={display}>
+            <div className="flex">
+                <div className="user-img">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user icon" />
+                    <h6>User name</h6>
+                    <p>Login to see profile</p>
+                    
+            </div>
+            <p className='close' onClick={()=>setdisplay('sidebarhide')}><i class="fa-solid fa-circle-xmark"></i>close</p>
+            </div>
+        
+        <ul className="bottom-link">
+                    <Link to='/' onClick={()=>setdisplay('sidebarhide')}><li>Home</li></Link>
+                    <Link to='/explore' onClick={()=>setdisplay('sidebarhide')}><li>Explore</li></Link>
+                    <Link to='/about-us' onClick={()=>setdisplay('sidebarhide')}><li>About Us</li></Link>
+                    <Link to='/contact-us' onClick={()=>setdisplay('sidebarhide')}><li>Contact Us</li></Link>
+                    <Link to='/login' onClick={()=>setdisplay('sidebarhide')}><li>Login/Signup</li></Link>
+        </ul>
+    </section>
     <nav>
+        
         <div className="logo">
         <Link to='/'><img src={Logo} alt="" className='main-logo' /></Link>
         </div>
@@ -24,10 +47,13 @@ const Navbar = () => {
             </Link>
     
         </div>
-        <div className="hamburger">
-        <i className="fa fa-bars" aria-hidden="true"></i>
+        <div className="hamburger" >
+        <i className="fa fa-bars" aria-hidden="true" onClick={()=>{
+            setdisplay('sidebar')}}></i>
         </div>
         </nav>
+    </section>
+    
   )
 }
 

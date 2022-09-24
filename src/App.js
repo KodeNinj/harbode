@@ -8,17 +8,19 @@ import Contact from './pages/Contact'
 import Login from './pages/Login'
 const App = () => {
   
+ 
+  
   return (
 
 
     <BrowserRouter>
       <ScrollToTop>
       <Routes>
-        <Route path="/" element={<Home/> }/>
-        <Route path="/explore" element={<Explore/> }/>
-        <Route path="/about-us" element={<AboutUs/> }/>
-        <Route path="/contact-us" element={<Contact/> }/>
-        <Route path="/login" element={<Login/> }/>
+        <Route path="/" element={<Home /> }/>
+        <Route path="/explore" element={<Explore  /> }/>
+        <Route path="/about-us" element={<AboutUs /> }/>
+        <Route path="/contact-us" element={<Contact /> }/>
+        <Route path="/login" element={<Login />}/>
         </Routes>
         </ScrollToTop>
     </BrowserRouter>

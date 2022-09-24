@@ -18,7 +18,9 @@ body{
     --user-link: #555555;
     --white: #fff;
 }
-
+#sidehide{
+    display: none;
+}
 /* Navigation */
 nav{
     display: flex;

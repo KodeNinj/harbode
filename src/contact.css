@@ -224,7 +224,7 @@ textarea{
     font-size: 18px;
     border-radius: 5px;
     padding: 15px;
-    border: 1px solid var(--blacks);
+    border: 2px solid var(--blacks);
     outline-color: var(--primary-orange);
 }
 .contactform .left .p{
