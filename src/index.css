@@ -18,8 +18,9 @@ body{
     --user-link: #555555;
     --white: #fff;
 }
-#sidehide{
-    display: none;
+
+#filter{
+    transition: all 2s ease;
 }
 /* Navigation */
 nav{
@@ -568,7 +569,7 @@ nav .links ul li:hover{
     box-shadow: 0 0 5px #c4c4c4;
     margin-right: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     cursor: pointer;
 
 }
@@ -648,20 +649,31 @@ nav .links ul li:hover{
 @media only screen and (max-width: 700px){
     .main-box{
         width: 350px;
+        height: auto;
         margin-right: 0;
     }
     .main-box .left{
         width: 150px;
+        height: 380px;
     }
     .main-box .top .right{
         width: 200px;
     }
     .main-box .left img{
         width: 150px;
+        height: 380px;
     }
     .property h4{
         text-align: center;
         margin-left: 0;
+    }
+    .main-box .bottom{
+        margin-top: 60px;
+        z-index: 4;
+    }
+    .main-box .top .right .down{
+        padding: 20px 15px;
+        border-top: 1px solid #c4c4c4;
     }
 }
 @media only screen and (max-width: 400px){
@@ -727,7 +739,9 @@ nav .links ul li:hover{
     .main-box .bottom span{
         display: none;
     }
-   
+    .main-box .bottom{
+        margin-top: 0px;
+    }
 }
 .findMore{
     padding: 20px 25px;

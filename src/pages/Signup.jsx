@@ -2,8 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../img/logo.png';
 import Logo1 from '../img/logomob.png';
-import '../login.css'
-const Login = () => {
+const Signup = () => {
   return (
     <section className="login">
         <nav className='web'>
@@ -39,19 +38,22 @@ const Login = () => {
         </nav>
        <div className="login-box">          
           <div className="left">
-            <img src="https://images.unsplash.com/photo-1550136513-548af4445338?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80" alt="" />
+            <img src="https://images.unsplash.com/photo-1561026554-29d9815d4f3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="" />
           </div>
-          <div className="right">
-            <h4>Welcome Back</h4>
-            <p>Kindly enter your credentials to proceed</p>
+          <div className="right right2">
+            <h4>Welcome Onboard</h4>
+            <p>Kindly fill the form to register on Habode</p>
             <form action="">
-              <input type="email" placeholder='Enter your Email' required autoComplete='off'  autoFocus />
+              <input type="email" placeholder='Enter your Email' required autoComplete='off'  autoFocus/>
+              <div className="flexme">
+                <input type="text" placeholder='First Name' id='firstname' required/>
+                <input type="text" placeholder='Last Name' required />
+              </div>
               <input type="password" placeholder='Password' required autoComplete='off' />
               <button type="submit">Login</button>
             </form>
             <div className="forgotcredentials">
-              <p>Forgot Password?</p>
-              <p>Don't Have An Account? <span><Link to='/signup'><b> Register</b></Link></span></p>
+              <p>Have An Account? <span><Link to='/login'><b> Login Instead</b></Link></span></p>
             </div>
             
           </div>
@@ -60,4 +62,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Signup

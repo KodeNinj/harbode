@@ -11,29 +11,18 @@
 
 .sidebar{
     width: 100%;
-    position: absolute;
-    z-index: 400;
+    position: fixed;
+    z-index: 50;
     top: 0;
     overflow: hidden;
-    padding: 40px 20px;
+    padding: 0 20px;
     background-color: var(--blacks);
     color: var(--white);
     transition: all 1s ease;
+    height: 100vh;
 }
 .sidebarhide{
-    width: 100%;
-    position: absolute;
     display: none;
-    z-index: 40;
-    top: 0;
-    height: 100vh;
-    overflow-x: hidden;
-    padding: 40px 20px;
-    background-color: var(--blacks);
-    color: var(--white);
-    transform: translateX(-100%);
-    transition: all 1s ease;
-    transform: translateX(0%);
 }
 
 #flexme .flex{
@@ -49,7 +38,7 @@
     color: red;
 }
 .sidebar img{
-    width: 46%;
+    width: 30%;
     padding: 10px;
     border: 2px solid var(--primary-orange);
     border-radius: 80px;
@@ -58,10 +47,10 @@
     padding: 0 30px;
 }
 .user-img h6{
-    font-size: 24px;
+    font-size: 20px;
 }
 .user-img p{
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
 }
 .bottom-link{
@@ -71,6 +60,17 @@
     margin-top: 10px;
     width: 100%;
 }
+.bottom-link .flexme{
+    display: flex;
+    width: 100%;
+}
+.bottom-link .flexme a{
+    width: 45%;
+    border-radius: 10px;
+}
+.bottom-link .flexme #logins{
+    margin-right: 10%;
+}
 .sidebar a{
     color: var(--white);
     text-decoration: none;
@@ -79,4 +79,5 @@
     padding: 30px;
     box-shadow: 0 0 3px var(--dark-blue);
     text-align: center;
+    border-radius: 10px;
 }

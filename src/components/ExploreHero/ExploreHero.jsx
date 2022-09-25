@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navigation/Navbar'
 import HeroImg from '../../img/explore.png'
 import HeroImgMob from '../../img/exploremob.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 const ExploreHero = () => {
   return (
     <section className='hero'>
@@ -11,7 +11,7 @@ const ExploreHero = () => {
         <div className="left exploreleft">
             <h2>Office Spaces Now Available</h2>
             <p>A new addition to the Harbode website. You can now rent office spaces on the website.</p>
-            <Link to='#'><button>Explore</button></Link>
+            <a href='#filter'><button>Explore</button></a>
         </div>
         <div className="right exploreimg">
             <img src={HeroImg} alt="" className='web' />

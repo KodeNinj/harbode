@@ -6,6 +6,7 @@ const Navbar = (props) => {
     const [display, setdisplay] = useState('sidebarhide')
   return (
     <section>
+        {/* start of side bar - open on hambugger click */}
         <section id='flexme' className={display}>
             <div className="flex">
                 <div className="user-img">
@@ -22,9 +23,13 @@ const Navbar = (props) => {
                     <Link to='/explore' onClick={()=>setdisplay('sidebarhide')}><li>Explore</li></Link>
                     <Link to='/about-us' onClick={()=>setdisplay('sidebarhide')}><li>About Us</li></Link>
                     <Link to='/contact-us' onClick={()=>setdisplay('sidebarhide')}><li>Contact Us</li></Link>
-                    <Link to='/login' onClick={()=>setdisplay('sidebarhide')}><li>Login/Signup</li></Link>
+                    <div className="flexme">
+                    <Link to='/login' onClick={()=>setdisplay('sidebarhide')} id='logins'><li>Login</li></Link>
+                    <Link to='/signup' onClick={()=>setdisplay('sidebarhide')}><li>Signup</li></Link>
+                    </div>
         </ul>
     </section>
+    {/* end of side bar */}
     <nav>
         
         <div className="logo">

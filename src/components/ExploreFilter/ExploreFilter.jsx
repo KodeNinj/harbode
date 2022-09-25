@@ -10,7 +10,7 @@ const Property_List = () => {
     
     return(
         <>
-        <section  className="main-box-container">
+        <section  className="main-box-container" id='filter'>
             {Exploreproperties.slice(begin, end).map((e)=>{
                 return(
                 <div className="main-box" key={e.id}>

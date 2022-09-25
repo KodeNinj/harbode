@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
+import Signup from './pages/Signup'
 const App = () => {
   
  
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/about-us" element={<AboutUs /> }/>
         <Route path="/contact-us" element={<Contact /> }/>
         <Route path="/login" element={<Login />}/>
+        <Route path="/signup" element={<Signup />}/>
         </Routes>
         </ScrollToTop>
     </BrowserRouter>
